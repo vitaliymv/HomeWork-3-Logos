@@ -11,12 +11,12 @@ public class TaskFour {
         double n = scanData.nextDouble();
 
         double nt = NearTen(m, n);
-
-        if(m == n){
-            System.out.println("Same numbers");
-        } else {
-            System.out.println(nt);
-        }
+        
+        if(Double.isNaN(nt)) 
+        	System.out.println("Same numbers");
+        else
+        	System.out.println("Numbers near ten: " + nt);
+        
 
         scanData.close();
     }
@@ -25,7 +25,13 @@ public class TaskFour {
 
         double x1 = Math.abs(m - 10);
         double x2 = Math.abs(n - 10);
-        return x1 < x2 ? m : n;
+        String s = "Same numbers";
+        if (x1 == x2) 
+        	return Double.NaN;
+        
+        	return x1 < x2 ? m : n;
+        
+		
     }
 
 }
