@@ -12,7 +12,7 @@ public class TaskSecond {
         secondversion(i);
     }
 
-    private static void firstversion(int numb){
+    private static void firstversion(int numb) {
 
         do {
         	
@@ -23,7 +23,7 @@ public class TaskSecond {
 
     }
 
-    private static void secondversion(int i){
+    private static void secondversion(int i) {
     	 
         for (i = 90; i >= 0; i -= 5) {
         	

@@ -9,7 +9,7 @@ public class TaskThird {
         Scanner scanData = new Scanner(System.in);
         int n = scanData.nextInt();
 
-        if(n % 2 == 0) {
+        if (n % 2 == 0) {
         	
             System.out.println("Even number");
             

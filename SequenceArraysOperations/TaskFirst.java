@@ -10,13 +10,14 @@ public class TaskFirst {
         
     }
 
-    private static void firstversion(int numb){
+    private static void firstversion(int numb) {
 
         System.out.println("Sequence of 55 numbers, type: '1, 3, 5, 7, ...' : ");
+        
         int i = 0;
         numb = 1;
 
-        while (i < 55){
+        while (i < 55) {
         	
             System.out.print(numb + " ");
             
